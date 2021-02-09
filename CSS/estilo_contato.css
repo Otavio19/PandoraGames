@@ -1,0 +1,35 @@
+#conteudo{
+	float: center;
+	margin-top: 20px;
+	background: #fff;
+	width: 600px; 
+	padding: 10px;
+	border-radius: 10px;
+}
+
+label{ 
+	cursor: pointer;
+}
+
+form{
+	text-align: center; 
+}
+
+#nome{
+	margin-left: 42px;
+	width: 20.5em;
+}
+
+#email{
+	margin-left: 42px;
+	width: 20.5em;
+}
+
+#comentario{
+	width: 20.5em;
+}
+
+#enviar{
+	top: 200px;
+	font-size: 1.5em;
+}
