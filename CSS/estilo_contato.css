@@ -1,3 +1,5 @@
+/* Esse estilo é para a ABA "Contato" */
+
 #conteudo{
 	float: center;
 	margin-top: 20px;
@@ -6,30 +8,50 @@
 	padding: 10px;
 	border-radius: 10px;
 }
-
+/* Esse Seletor altera tamanho e fonte das letras de um label*/
 label{ 
 	cursor: pointer;
+	font-family: OCR A Std, monospace;
+	font-size: 1.5em;
 }
 
+/* Esse Seletor centraliza o formulario dentro do container*/
 form{
 	text-align: center; 
 }
 
 #nome{
-	margin-left: 42px;
+	margin-left: 5em;
 	width: 20.5em;
+	height: 1.5em;
 }
 
 #email{
-	margin-left: 42px;
+	margin-left: 4.5em;
 	width: 20.5em;
+	height: 1.5em;
 }
 
 #comentario{
+	margin-left: 3.5em;
 	width: 20.5em;
+	height: 1.5em;
 }
 
+#avaliacao{
+	margin-left: 1.5em;
+	width: 20.5em;
+	height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+/* Centralizamos o botão de enviar */
 #enviar{
-	top: 200px;
 	font-size: 1.5em;
+	margin: -2.0em auto;
+	margin-left: 46.8%;
+	padding: 5px 15px;
+	background-color: rgb(68, 113, 149);
+	border-radius: 10px;
+	font-family: OCR A Std, monospace;
 }

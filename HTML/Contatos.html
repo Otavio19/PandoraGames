@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>Pandora Games</title>
+
 	<meta charset="utf-8">
+
+	<!-- Esse Link é para o topo da página -->
 	<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+
+	<!-- Esse estilo é para o conteúdo da página -->
 	<link rel="stylesheet" type="text/css" href="../CSS/estilo_contato.css">
+
 </head>
+
 <body>
 
 	<div id="topo">
@@ -30,18 +38,21 @@
 
 	<div id="conteudo">
 		<form>
-			<label for="nome">Nome</label>
-			<input id="nome" type="text" name="Comentario" placeholder="Ex: Fulano(a)">
+				<label for="nome">Nome</label>
+				<input id="nome" type="text" name="Comentario" placeholder="Ex: Fulano(a)">
 			<br><br>
-			<label for="email">Email</label>
-			<input id="email" type="email" name="email" placeholder="Ex: Fulano@gmail.com">
+				<label for="email">Email</label>
+				<input id="email" type="email" name="email" placeholder="Ex: Fulano@gmail.com">
 			<br><br>
-			<label for="comentario">Comentário</label>
-			<input id="comentario" type="text" name="comentario">
+				<label for="comentario">Dúvida</label>
+				<input id="comentario" type="text" name="comentario">
 			<br><br>
-			<input id="enviar" type="button" name="Enviar" value="Enviar">
+				<label for="avaliacao">Avalição</label>
+				<input id="avaliacao" type="number" min="0" max="10" name="avaliacao">
 		</form>
 	</div>
+		<!-- Botão de envio do formulário -->
+		<input id="enviar" type="button" name="Enviar" value="Enviar">
 
 </body>
 </html>
